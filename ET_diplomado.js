@@ -16,7 +16,7 @@ var MOD16A2 = ee.ImageCollection("MODIS/061/MOD16A2")
 //Se debe generar una geometria (polígono  punto) de donde se obtendrá el
 //promedio de la serie de datos.
 
-var stringHRU = 'aguas_arriba_lago_ranco'; //Definir HRU o banda de elevación
+var stringHRU = 'cuenca_rio_bueno_en_bueno'; //Definir HRU o banda de elevación
 
 var  HRU = ee.FeatureCollection('projects/ee-jvaldivieso/assets/diplomado_2024/'+stringHRU);
 
