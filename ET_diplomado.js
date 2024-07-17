@@ -3,8 +3,8 @@
 //Obtiene la base de datos a usar entre el 2002 y el 2017 
 //PML_V2 0.1.7: Coupled Evapotranspiration and Gross Primary Product (GPP) 
  
-var PML_V2 = ee.ImageCollection("CAS/IGSNRR/PML/V2")
-              .filterDate('2002-07-04', '2017-12-27');
+var PML_V2 = ee.ImageCollection("CAS/IGSNRR/PML/V2_v017")
+              .filterDate('2000-02-26', '2020-12-26');
 
 //Obtiene la base de datos a usar entre el 2001 y el 2024 
 //MOD16A2.061: Terra Net Evapotranspiration 8-Day Global 500m
